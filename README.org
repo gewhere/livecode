@@ -7,7 +7,9 @@
 
 - Each time you run delete all data txt files: =rm data*.txt=
 
-PS: Steps 1,2 was the basis of my live coding performance for TOPLAP's 15th birthday anniversary!!!
+PS: - Steps 1,2 was the basis of my live coding performance for TOPLAP's 15th birthday anniversary!!!
+    - Thanks [[https://github.com/georgezachos][George Zachos]] for his input on the bokeh script.
+
 
 ** Run python OSC server
 
