@@ -1,0 +1,20 @@
+* How to use
+
+- Steps:
+  1. Run SC3 code in =toplap-v3.scd= file
+  2. Run python OSC server
+  3. Run bokeh application
+
+- Each time you run delete all data txt files: =rm data*.txt=
+
+PS: Steps 1,2 was the basis of my live coding performance for TOPLAP's 15th birthday anniversary!!!
+
+** Run python OSC server
+
+Run: =python osc-server-sc3-stream.py=
+
+** Plot using bokeh
+
+Run: =bokeh serve --show plot-bokeh-stream.py=
+
+Note: Start bokeh application after we get some data into SC3, so that =data-array.txt= file has some amount of data to plot.
